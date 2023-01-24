@@ -1,0 +1,538 @@
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~
+$ ld
+C:\Users\▒▒▒▒▒\Downloads\mingw64tdm\bin\ld.exe: no input files
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~
+$ ld
+C:\Users\▒▒▒▒▒\Downloads\mingw64tdm\bin\ld.exe: no input files
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~
+$ ls
+'3D Objects'/
+'6 lecture'/
+ AppData/
+'Application Data'@
+ Contacts/
+ Cookies@
+ DataGripProjects/
+ Desktop/
+ Documents/
+ Downloads/
+ Favorites/
+ IntelGraphicsProfiles/
+ Links/
+'Local Settings'@
+ Music/
+ NTUSER.DAT
+ NTUSER.DAT{c3cb54db-d85c-11ec-a566-8344dfbdbbb8}.TM.blf
+ NTUSER.DAT{c3cb54db-d85c-11ec-a566-8344dfbdbbb8}.TMContainer00000000000000000001.regtrans-ms
+ NTUSER.DAT{c3cb54db-d85c-11ec-a566-8344dfbdbbb8}.TMContainer00000000000000000002.regtrans-ms
+ NetHood@
+'OWASP ZAP'/
+ OneDrive/
+ Pictures/
+ PrintHood@
+ Recent@
+'Saved Games'/
+ Searches/
+ SendTo@
+ Tracing/
+ Untitled.ipynb
+ Videos/
+ YROK/
+ database1/
+ ntuser.dat.LOG1
+ ntuser.dat.LOG2
+ ntuser.ini
+ postgresql_14.exe*
+ postgresql_14.exe-20220908183416*
+'Мои документы'@
+ Шаблоны@
+'главное меню'@
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~
+$ git--version
+bash: git--version: command not found
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~
+$ git --version
+git version 2.39.1.windows.1
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~
+$ git config --global  user.name "Zarina"
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~
+$ git config --global user.email "z_kolybaeva@kbtu.kz"
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~
+$ ^C
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~
+$ ^[[200~git config --global core.autocrlf true
+bash: $'\E[200~git': command not found
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~
+$ git config --global core.safecrlf warn~
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~
+$ git config --global core.autocrlf true
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~
+$ git config --global core.safecrlf warn
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~
+$ git config --global core.quotepath off
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~
+$ mkdir hello
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~
+$ cd hello
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello
+$ touch hello.html
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello
+$ git init
+Initialized empty Git repository in C:/Users/админ/hello/.git/
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git add hello.html
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git commit -m "First Commit"
+[master (root-commit) 689d389] First Commit
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello.html
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ <h1>Helllo, World!</h1>
+bash: !: event not found
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ get status
+bash: get: command not found
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ <h1>Hello,World!</h1>
+bash: !: event not found
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ pwd
+/c/Users/админ/hello
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git add hello.html
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git commit
+On branch master
+nothing to commit, working tree clean
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git add a.html
+fatal: pathspec 'a.html' did not match any files
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git add b.html
+fatal: pathspec 'b.html' did not match any files
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git commit
+On branch master
+nothing to commit, working tree clean
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git add hello.html
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello.html
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git add hello.html
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+[master 4a34d4f] Added h1 tag sdas===
+ 1 file changed, 1 insertion(+)
+Changes to be committed:
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)tage)
+$ `
+Display all 4917 possibilities? (y or n)
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$
+Display all 4917 possibilities? (y or n)ny files
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git status
+On branch masterr your editor to close the file...
+nothing to commit, working tree clean
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git add hello.html
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   hello.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello.html
+
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ get commit -m "Added standard HTML page tags"
+bash: get: command not found
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   hello.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello.html
+
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git status
+On branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   hello.html
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   hello.html
+
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git commit -m "Added HTML header"
+[master c52a2ab] Added HTML header
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git log
+commit c52a2abf0d0f48c7b1ce075cfe4908a8467a1a30 (HEAD -> master)
+Author: Zarina <z_kolybaeva@kbtu.kz>
+Date:   Tue Jan 24 18:55:45 2023 +0600
+
+    Added HTML header
+
+commit 4a34d4f5f8d89e58874db36f2adda6f176768449
+Author: Zarina <z_kolybaeva@kbtu.kz>
+Date:   Tue Jan 24 18:35:00 2023 +0600
+
+    Added h1 tag
+    sdas===
+
+commit 689d389d67e484b04352c1f7dbfb12318c1ac475
+Author: Zarina <z_kolybaeva@kbtu.kz>
+Date:   Tue Jan 24 15:18:20 2023 +0600
+
+    First Commit
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git log --pretty=oneline
+c52a2abf0d0f48c7b1ce075cfe4908a8467a1a30 (HEAD -> master) Added HTML header
+4a34d4f5f8d89e58874db36f2adda6f176768449 Added h1 tag sdas===
+689d389d67e484b04352c1f7dbfb12318c1ac475 First Commit
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git log --pretty=oneline --max-count=2
+c52a2abf0d0f48c7b1ce075cfe4908a8467a1a30 (HEAD -> master) Added HTML header
+4a34d4f5f8d89e58874db36f2adda6f176768449 Added h1 tag sdas===
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git config --global alias.co checkout
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git confif --global alias.ci commit
+git: 'confif' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git condig --global alias.st status
+git: 'condig' is not a git command. See 'git --help'.
+
+The most similar command is
+        config
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git config --global alias.br branch
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git config --global alias.hist "log --pretty=format:'%h %ad | %s%d [%an]' --graph --date=short"
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git config --global alias.type 'cat-file-t'
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git config --global alias.dump 'cat-file-p'
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git hist
+fatal: bad config line 24 in file C:/Users/админ/.gitconfig
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello
+$ мсс
+bash: мсс: command not found
+
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$
+
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$
+
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$
+
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$
+
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git hist
+* c52a2ab 2023-01-24 | Added HTML header (HEAD -> master) [Zarina]
+* 4a34d4f 2023-01-24 | Added h1 tag sdas=== [Zarina]
+* 689d389 2023-01-24 | First Commit [Zarina]
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git checkout <hash>
+bash: syntax error near unexpected token `newline'
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ cat hello.html
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+  </body>
+</html>
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git chechout master
+git: 'chechout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git chechout master
+git: 'chechout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git checkout master
+Already on 'master'
+M       hello.html
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ cat hello.html
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+  </body>
+</html>
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git chechout <hash>
+bash: syntax error near unexpected token `newline'
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git checkout <hash>
+bash: syntax error near unexpected token `newline'
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ cat hello.html
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+  </body>
+</html>
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git tag v1
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git checkout v1^
+error: Your local changes to the following files would be overwritten by checkout:
+        hello.html
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git checkout master
+Already on 'master'
+M       hello.html
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ cat hello.html
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+  </body>
+</html>
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git checkout v1^
+error: Your local changes to the following files would be overwritten by checkout:
+        hello.html
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git tag v1-beta
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git chechout v1
+git: 'chechout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello (master)
+$ git checkout v1
+Note: switching to 'v1'.
+
+You are in 'detached HEAD' state. You can look around, make experimental
+changes and commit them, and you can discard any commits you make in this
+state without impacting any branches by switching back to a branch.
+
+If you want to create a new branch to retain commits you create, you may
+do so (now or later) by using -c with the switch command. Example:
+
+  git switch -c <new-branch-name>
+
+Or undo this operation with:
+
+  git switch -
+
+Turn off this advice by setting config variable advice.detachedHead to false
+
+HEAD is now at c52a2ab Added HTML header
+M       hello.html
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello ((v1))
+$ git tag
+v1
+v1-beta
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello ((v1))
+$ git hist master --all
+* c52a2ab 2023-01-24 | Added HTML header (HEAD, tag: v1-beta, tag: v1, master) [Zarina]
+* 4a34d4f 2023-01-24 | Added h1 tag sdas=== [Zarina]
+* 689d389 2023-01-24 | First Commit [Zarina]
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello ((v1))
+$ git tag v1
+fatal: tag 'v1' already exists
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello ((v1))
+$ git checkout v1^
+error: Your local changes to the following files would be overwritten by checkout:
+        hello.html
+Please commit your changes or stash them before you switch branches.
+Aborting
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello ((v1))
+$ cat hello.html
+<html>
+  <head>
+  </head>
+  <body>
+    <h1>Hello, World!</h1>
+  </body>
+</html>
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello ((v1))
+$ git tag v1-beta
+fatal: tag 'v1-beta' already exists
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello ((v1))
+$ git checkout v1
+HEAD is now at c52a2ab Added HTML header
+M       hello.html
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello ((v1))
+$ git chechout v1-beta
+git: 'chechout' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello ((v1))
+$ git checkout v1-beta
+HEAD is now at c52a2ab Added HTML header
+M       hello.html
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello ((v1))
+$ git tag
+v1
+v1-beta
+
+админ@LAPTOP-2BLH7VUJ MINGW64 ~/hello ((v1))
+$
