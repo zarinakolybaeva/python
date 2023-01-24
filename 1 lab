@@ -82,7 +82,7 @@ x=['app','black','white']
 print(list(x))
 
 x = ("apple", "banana", "cherry")
-print(tuple(x
+print(tuple(x))
 
 x = ("apple", "banana", "cherry")
 print(dict(x))
