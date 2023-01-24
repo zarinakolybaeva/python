@@ -1,0 +1,33 @@
+x,y,z='blue','orange','red'
+print(x)
+print(y,z)
+
+print('another variant')
+
+colors=['red','white','black']
+a,b,c=colors
+print(a,b,c)
+
+
+
+age=input()
+print('my age is '+ age + 'years')
+
+
+year=17
+print('i am '+ str(year)+ 'age')
+
+
+
+x='wonderful'
+def func():  # def is function
+    global x
+    x='awesom' 
+    print('py is' + x)
+def func2():
+    x='bad'
+    print('pi is not '+ x)
+# call it
+func()
+func2()
+
